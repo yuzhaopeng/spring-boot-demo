@@ -11,6 +11,19 @@ demo                ------ 工程根目录
   └─src/test/java/com/example/demo     ------ 测试类根目录
 ```
 
+## 打包
+
+```
+mvn package -Dmaven.test.skip=true
+```
+
+## 构建docker镜像
+
+```
+docker build -t="spring-boot-demo" .
+```
+
+
 ## 其他说明
 使用了spring boot 2.4.5版本。
 
