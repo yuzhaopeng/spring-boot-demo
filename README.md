@@ -29,4 +29,7 @@ docker build -t="spring-boot-demo" .
 
 已配置了Dockerfile文件，执行mvn打包之后可使用Dockerfile打镜像
 
+## 流水线
+todo 添加流水线文件
+
 
