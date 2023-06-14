@@ -1,7 +1,7 @@
 # 说明文档
 
 ### Spring boot Demo工程
-项目默认启动80端口，如需修改端口编辑`src/main/resources/application.properties`文件中的`server.port`项
+项目默认启动8080端口，如需修改端口编辑`src/main/resources/application.properties`文件中的`server.port`项
 
 ## 目录结构
 ```
