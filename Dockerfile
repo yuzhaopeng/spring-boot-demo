@@ -4,4 +4,4 @@ COPY target/demo-0.0.1-SNAPSHOT.jar  /usr/local/app.jar
 
 ENV TZ="Asia/Shanghai"
 ENTRYPOINT ["java","-jar","/usr/local/app.jar"]
-EXPOSE 80
+EXPOSE 8080
